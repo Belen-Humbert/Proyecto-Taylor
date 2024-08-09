@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Playlist</title>
+	<link rel="shortcut icon" href="logo.jpg">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News Cycle">
+
+	<meta name= "keywords" content="arte,Taylor Swift,Musica">
+	<meta name= "description" content="Esta página está dedicada a fangirlear con las canciones y el universo de Taylor Swift>
+	<meta name= "author" content="Belén Humbert">
+	</head>
+
+	<body>
+	
+		<center><h2 id="element-two"><b>Taylor ha publicado muchas, MUCHAS canciones por lo que decidí hacer una playlist propia con mis canciones favoritas de cada uno de sus albums</b></h2></center>
+		<center><h2 id="element-two">Te la dejo a continuación para que puedas darle una mirada</h1></center>
+		<center><a title="playlist" href="https://open.spotify.com/playlist/5MP6qQL7TCmpZZJFoE246g?si=c7c4fa0e0a4f4253"><img src="playlist.jpg" width="600" alt="playlist" /></a>
+		<center><h3 id="element-one">La playlist cuenta con 86 canciones, fue armada recorriendo cada álbum y agregando mis canciones favoritas de cada uno desde los inicios de Taylor hasta su último álbum.</h3></center>
+
+		<center><div id="kiko-slider">
+
+        <ul class="slider">
+            <li id="slide1">
+                <img src="foto7.jpg"></img>
+            </li>
+            <li id="slide2">
+                <img src="foto13.jpg"></img>
+            </li>
+            <li id="slide3">
+                <img src="foto2.jpg"></img>
+            </li>
+            <li id="slide4">
+                <img src="foto9.jpg"></img>
+            </li>
+            <li id="slide5">
+                <img src="foto10.jpg"></img>
+            </li>
+            <li id="slide6">
+                <img src="foto15.jpg"></img>
+            </li>
+        </ul>
+
+        <ul class="menu">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+            <li>
+                <a href="#slide4">4</a>
+            </li>
+            <li>
+                <a href="#slide5">5</a>
+            </li>
+            <li>
+                <a href="#slide6">6</a>
+            </li>
+        </ul>
+
+    </div></center>
+<br>
+<br>
+	
+	<section class="buttons">
+      <a href="https://www.facebook.com/TaylorSwift" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/taylorswift/" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/taylorswift" class="fa fa-youtube"></a>
+      <a href="https://www.taylorswift.com/" class="fa fa-user"></a>
+    </section>
+	</body>
+   
+   <style>
+   	#element-two {
+	font-size: 1.5em;
+    font-family: Josefin Sans;
+    color: #525b84;
+    margin-left: 10px;
+    margin-right: 10px;
+	}
+
+	#element-one{
+	font-size: 1.1em;
+    font-family: News Cycle;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+	}
+
+ 	body {
+  	background-color: #ac9eb8;
+  	margin-left: 20px;
+  	margin-right: 20px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	}
+
+	.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #525b84;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+#kiko-slider {
+    font-family: sans-serif;
+    margin: auto;
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#kiko-slider>ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#kiko-slider>ul.slider {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+}
+
+#kiko-slider>ul.slider h1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#kiko-slider>ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background: #fff;
+}
+
+#kiko-slider>ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#kiko-slider>ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+#kiko-slider>ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider>.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+#kiko-slider>.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#kiko-slider>.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #525b84;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+
+
+   </style>
+   </html>

@@ -1,0 +1,129 @@
+body {
+  background-color: #ac9eb8;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: News Cycle; 
+}
+
+#element-two {
+	font-size: 1.4em;
+	font-family: Josefin Sans;
+	color: #525b84;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#element-one{
+	font-size: 1.2em;
+	font-family: News Cycle;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+h3{
+	font-size: 1.7em;
+	font-family: Josefin Sans;
+	color: #525b84;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h4{
+  font-size: 1.5em;
+  font-family: Josefin Sans;
+  color: #525b84;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.carrousel {
+  width: 100%;
+  max-width: 120em;
+  padding: 2em;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 190%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .img {
+  width: calc( 100% / 11 - 2em);
+  min-height: 10vh;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .punto.activo {
+  background-color: lightblue;
+}
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #525b84;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+

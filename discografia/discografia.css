@@ -1,0 +1,22 @@
+#element-two {
+	font-size: 1.3em;
+	font-family: Caveat, sans-serif;
+	color: #4B088A;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#element-one{
+	font-size: 1.1em;
+	font-family: EB Garamond;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+body{
+	background-image: src= fondo.jpg;
+}
+
+ body {
+  background-color: #F8E0E0; 

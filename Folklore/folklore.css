@@ -1,0 +1,110 @@
+#element-two {
+	font-size: 1em;
+	font-family: Homemade Apple, sans-serif;
+	color: #4B088A;
+}
+
+#element-one{
+	font-size: 1em;
+	font-family: Libre Baskerville;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+ body {
+  background-color: #FBEEE6; 
+}
+
+h2{
+	font-size: 1.6em;
+	font-family: Homemade Apple;
+	color: black;
+	border-radius: 1em;
+}
+  background-color: #F3E2A9;
+}
+
+.carrousel {
+  width: 100%;
+  max-width: 120em;
+  padding: 2em;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  overflow: hidden;
+}
+
+.carrousel .grande {
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .img {
+  width: calc( 100% / 5 - 2em);
+  min-height: 10vh;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel .puntos {
+  width: 100%;
+  margin: 1em 0 0;
+  padding: 0.4em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel .punto.activo {
+  background-color: lightblue;
+}
+
+.carrousel .mediano {
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+
+.carrousel .chico {
+  width: 95%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  box-shadow: 1em 1em 2em var(--sombra-ppal), -1em -1em 2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  padding: 2em;
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
